@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.Logback.classic.patternLayout">
+
+			<pattern>%d [%thread] %-5level %-60logger{60} : %msg%n</pattern>
+		</layout>
+	</appender>
+
+	<appender nam="rollingFile"
+		class="ch.qos.Logback.core.rolling.RollingFileAppender">
+		<file>Employee-Details-Management.log</file>
+		<encoder class="ch.qos.Logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%d [%thread] %highlight(%-5level) %-60logger{60} : %msg%n</pattern>
+
+		</encoder>
+
+<rollingPolicy 
+class="ch.qos.Logback.core.rolling.TimeBasedRollingPolicy" 
+>
+<fileNamePattern>Employee-Details-Management-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+
+<maxHistory>10</maxHistory>
+<totalSizeCap>1mb</totalSizeCap>
+<cleanHistoryOnStart>true</cleanHistoryOnStart>
+<timeBasedFileNamingAndTriggeringPolicy
+class="ch.qos.Logback.core.rolling.SizeAndTimeBasedFNATP"
+>
+	
+</timeBasedFileNamingAndTriggeringPolicy>
+
+
+</rollingPolicy>
+	</appender>
+	<root level="info">
+		<appender-ref ref="STDOUT" />
+				<appender-ref ref="RollongFile" />
+
+		
+	</root>
+</configuration>
