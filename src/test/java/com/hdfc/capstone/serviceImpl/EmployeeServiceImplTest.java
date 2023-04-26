@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.hdfc.capstone.entity.Employee;
-import com.hdfc.capstone.exception.EmployeeIdException;
+import com.hdfc.capstone.vo.EmployeeVO;
 
 
 @SpringBootTest
@@ -17,8 +17,8 @@ class EmployeeServiceImplTest {
 	EmployeeServiceImpl employeeSeriveImpl;
 
 	@Test
-	void testGetByEmployeeId() throws EmployeeIdException {
-		Employee employee = employeeSeriveImpl.getEmployeeById(1);
+	void testGetEmployeeById() throws Exception {   
+		EmployeeVO employee = employeeSeriveImpl.getEmployeeById(1);
 		assertNotNull(employee);
 		assertEquals(1, employee.getEmployeeId());
 	}
