@@ -1,0 +1,1055 @@
+2023-04-24 07:00:25,104 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 10760 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 07:00:25,104 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 07:00:25,113 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 07:00:25,189 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 07:00:25,190 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 07:00:26,105 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 07:00:26,281 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 165 ms. Found 1 JPA repository interfaces.
+2023-04-24 07:00:26,957 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 07:00:26,969 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 07:00:26,969 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 07:00:26,970 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 07:00:27,118 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 07:00:27,119 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1928 ms
+2023-04-24 07:00:27,320 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 07:00:27,378 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 07:00:27,577 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 07:00:27,690 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 07:00:28,197 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 07:00:28,230 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 07:00:29,016 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 07:00:29,029 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 07:00:29,420 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 07:00:30,589 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2023-04-24 07:00:30,612 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 07:00:30,791 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+2023-04-24 07:00:30,830 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 07:00:30,834 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 07:00:30,846 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 07:00:30,849 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 07:00:30,849 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 07:00:30,855 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 07:00:30,856 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 07:00:30,869 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-24 07:00:30,895 [restartedMain] ERROR o.springframework.boot.SpringApplication           - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.hdfc.capstone.EmployeeDetailsManagementApplication.main(EmployeeDetailsManagementApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:235)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213)
+	... 21 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1039)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:232)
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Keystore was tampered with, or password was incorrect
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:107)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:71)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1302)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1388)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:663)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1037)
+	... 25 common frames omitted
+Caused by: java.io.IOException: Keystore was tampered with, or password was incorrect
+	at java.base/sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:813)
+	at java.base/sun.security.util.KeyStoreDelegator.engineLoad(KeyStoreDelegator.java:221)
+	at java.base/java.security.KeyStore.load(KeyStore.java:1473)
+	at org.apache.tomcat.util.security.KeyStoreUtil.load(KeyStoreUtil.java:69)
+	at org.apache.tomcat.util.net.SSLUtilBase.getStore(SSLUtilBase.java:218)
+	at org.apache.tomcat.util.net.SSLHostConfigCertificate.getCertificateKeystore(SSLHostConfigCertificate.java:207)
+	at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:282)
+	at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:246)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:105)
+	... 31 common frames omitted
+Caused by: java.security.UnrecoverableKeyException: Password verification failed
+	at java.base/sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:811)
+	... 39 common frames omitted
+2023-04-24 07:14:50,818 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 07:14:50,818 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 10076 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 07:14:50,823 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 07:14:50,892 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 07:14:50,893 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 07:14:51,740 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 07:14:51,914 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 163 ms. Found 1 JPA repository interfaces.
+2023-04-24 07:14:52,598 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 07:14:52,609 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 07:14:52,609 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 07:14:52,609 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 07:14:52,727 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 07:14:52,727 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1833 ms
+2023-04-24 07:14:52,880 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 07:14:52,938 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 07:14:53,126 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 07:14:53,246 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 07:14:53,612 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 07:14:53,645 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 07:14:54,450 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 07:14:54,461 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 07:14:54,850 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 07:14:56,107 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2023-04-24 07:14:56,128 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 07:14:56,194 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+2023-04-24 07:14:56,215 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 07:14:56,219 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 07:14:56,229 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 07:14:56,233 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 07:14:56,233 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 07:14:56,238 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 07:14:56,239 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 07:14:56,250 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-24 07:14:56,278 [restartedMain] ERROR o.springframework.boot.SpringApplication           - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.hdfc.capstone.EmployeeDetailsManagementApplication.main(EmployeeDetailsManagementApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:235)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213)
+	... 21 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1039)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:232)
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Keystore was tampered with, or password was incorrect
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:107)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:71)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1302)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1388)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:663)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1037)
+	... 25 common frames omitted
+Caused by: java.io.IOException: Keystore was tampered with, or password was incorrect
+	at java.base/sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:813)
+	at java.base/sun.security.util.KeyStoreDelegator.engineLoad(KeyStoreDelegator.java:221)
+	at java.base/java.security.KeyStore.load(KeyStore.java:1473)
+	at org.apache.tomcat.util.security.KeyStoreUtil.load(KeyStoreUtil.java:69)
+	at org.apache.tomcat.util.net.SSLUtilBase.getStore(SSLUtilBase.java:218)
+	at org.apache.tomcat.util.net.SSLHostConfigCertificate.getCertificateKeystore(SSLHostConfigCertificate.java:207)
+	at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:282)
+	at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:246)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:105)
+	... 31 common frames omitted
+Caused by: java.security.UnrecoverableKeyException: Password verification failed
+	at java.base/sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:811)
+	... 39 common frames omitted
+2023-04-24 12:29:27,621 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 10284 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 12:29:27,621 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 12:29:27,641 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 12:29:27,716 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 12:29:27,716 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 12:29:28,795 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 12:29:29,052 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 242 ms. Found 1 JPA repository interfaces.
+2023-04-24 12:29:29,885 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 12:29:29,900 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:29:29,900 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 12:29:29,900 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 12:29:30,022 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 12:29:30,023 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2306 ms
+2023-04-24 12:29:30,220 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 12:29:30,327 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 12:29:30,569 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 12:29:30,736 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 12:29:31,204 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 12:29:31,256 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 12:29:32,923 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 12:29:32,937 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 12:29:33,405 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 12:29:34,881 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 12:29:34,907 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:29:35,116 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 12:29:35,153 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 12:29:35,168 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 8.377 seconds (JVM running for 10.02)
+2023-04-24 12:35:31,405 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 12:35:31,427 [RMI TCP Connection(9)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:35:31,427 [RMI TCP Connection(9)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 12:35:31,435 [RMI TCP Connection(9)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:35:31,437 [RMI TCP Connection(9)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:35:31,477 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 12:35:31,482 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 12:35:31,494 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 12:36:39,039 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 15544 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 12:36:39,040 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 12:36:39,044 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 12:36:39,131 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 12:36:39,132 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 12:36:40,151 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 12:36:40,387 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 220 ms. Found 1 JPA repository interfaces.
+2023-04-24 12:36:41,287 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 12:36:41,304 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:36:41,305 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 12:36:41,305 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 12:36:41,459 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 12:36:41,459 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2326 ms
+2023-04-24 12:36:41,706 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 12:36:41,811 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 12:36:42,104 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 12:36:42,291 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 12:36:42,827 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 12:36:42,886 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 12:36:44,217 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 12:36:44,232 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 12:36:44,898 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 12:36:46,462 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 12:36:46,491 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:36:46,597 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 12:36:46,635 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 12:36:46,652 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 8.147 seconds (JVM running for 9.387)
+2023-04-24 12:50:52,447 [https-jsse-nio-8585-exec-8] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 12:50:52,448 [https-jsse-nio-8585-exec-8] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 12:50:52,451 [https-jsse-nio-8585-exec-8] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 3 ms
+2023-04-24 12:50:52,586 [https-jsse-nio-8585-exec-8] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 12:50:53,005 [https-jsse-nio-8585-exec-8] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 12:50:58,285 [https-jsse-nio-8585-exec-9] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 12:50:58,293 [https-jsse-nio-8585-exec-9] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 12:51:03,635 [https-jsse-nio-8585-exec-10] INFO  c.h.c.controller.EmployeeController                - Employee by (5)employeeId is called
+2023-04-24 12:51:03,644 [https-jsse-nio-8585-exec-10] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 12:52:45,675 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24 12:52:45,693 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:52:45,693 [Thread-5] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 12:52:45,695 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 12:52:45,700 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:52:45,705 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:52:45,733 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 12:52:45,739 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 12:52:45,760 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 12:52:45,968 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 15544 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 12:52:45,968 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 12:52:46,275 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 12:52:46,286 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2023-04-24 12:52:46,414 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 12:52:46,414 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:52:46,415 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 12:52:46,416 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 12:52:46,457 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 12:52:46,457 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 484 ms
+2023-04-24 12:52:46,505 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 12:52:46,511 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Starting...
+2023-04-24 12:52:46,594 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Start completed.
+2023-04-24 12:52:46,594 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 12:52:46,918 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 12:52:46,920 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 12:52:47,097 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 12:52:47,878 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 12:52:47,892 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 12:52:47,958 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 12:52:47,977 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 12:52:47,993 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 2.146 seconds (JVM running for 970.728)
+2023-04-24 12:52:47,998 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-04-24 12:52:56,278 [https-jsse-nio-8585-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 12:52:56,278 [https-jsse-nio-8585-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 12:52:56,280 [https-jsse-nio-8585-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-04-24 12:52:56,286 [https-jsse-nio-8585-exec-6] INFO  c.h.c.controller.EmployeeController                - Employee by (5)employeeId is called
+2023-04-24 12:52:56,294 [https-jsse-nio-8585-exec-6] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 12:52:57,466 [https-jsse-nio-8585-exec-7] INFO  c.h.c.controller.EmployeeController                - Employee by (5)employeeId is called
+2023-04-24 12:52:57,482 [https-jsse-nio-8585-exec-7] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 12:53:07,502 [https-jsse-nio-8585-exec-8] INFO  c.h.c.controller.EmployeeController                - Employee by (58)employeeId is called
+2023-04-24 12:53:07,513 [https-jsse-nio-8585-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver    - Resolved [com.hdfc.capstone.exception.EmployeeIdException: Invalid EmployeeID ]
+2023-04-24 12:53:14,857 [https-jsse-nio-8585-exec-9] INFO  c.h.c.controller.EmployeeController                - Employee by (8)employeeId is called
+2023-04-24 12:53:14,863 [https-jsse-nio-8585-exec-9] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 12:53:41,506 [https-jsse-nio-8585-exec-4] INFO  c.h.c.controller.EmployeeController                - Employee by (8)employeeId is called
+2023-04-24 12:53:41,546 [https-jsse-nio-8585-exec-4] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:06:03,381 [https-jsse-nio-8585-exec-4] INFO  c.h.c.controller.EmployeeController                - Employee by (8)employeeId is called
+2023-04-24 13:06:03,389 [https-jsse-nio-8585-exec-4] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:08:08,085 [https-jsse-nio-8585-exec-1] INFO  c.h.c.controller.EmployeeController                - Employee by (8)employeeId is called
+2023-04-24 13:08:08,089 [https-jsse-nio-8585-exec-1] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:08:13,313 [https-jsse-nio-8585-exec-2] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 13:08:13,321 [https-jsse-nio-8585-exec-2] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:08:20,008 [https-jsse-nio-8585-exec-3] INFO  c.h.c.controller.EmployeeController                - Employee by (6)employeeId is called
+2023-04-24 13:08:20,018 [https-jsse-nio-8585-exec-3] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:08:25,006 [https-jsse-nio-8585-exec-4] INFO  c.h.c.controller.EmployeeController                - Employee by (6)employeeId is called
+2023-04-24 13:08:25,012 [https-jsse-nio-8585-exec-4] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:13:02,749 [https-jsse-nio-8585-exec-1] INFO  c.h.c.controller.EmployeeController                - Employee by (6)employeeId is called
+2023-04-24 13:13:02,861 [https-jsse-nio-8585-exec-1] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:15:27,673 [RMI TCP Connection(42)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 13:15:27,687 [RMI TCP Connection(42)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 13:15:27,688 [RMI TCP Connection(42)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 13:15:27,688 [RMI TCP Connection(42)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 13:15:27,691 [RMI TCP Connection(42)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 13:15:27,695 [RMI TCP Connection(42)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 13:15:27,698 [RMI TCP Connection(42)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 13:15:27,699 [RMI TCP Connection(42)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown initiated...
+2023-04-24 13:15:27,805 [RMI TCP Connection(42)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown completed.
+2023-04-24 13:16:25,038 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 10968 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 13:16:25,038 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 13:16:25,043 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 13:16:25,112 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 13:16:25,113 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 13:16:26,228 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 13:16:26,471 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 229 ms. Found 1 JPA repository interfaces.
+2023-04-24 13:16:27,365 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 13:16:27,380 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 13:16:27,381 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 13:16:27,381 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 13:16:27,530 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 13:16:27,530 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2417 ms
+2023-04-24 13:16:27,740 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 13:16:27,815 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 13:16:28,064 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 13:16:28,225 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 13:16:28,760 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 13:16:28,802 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 13:16:30,148 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 13:16:30,161 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 13:16:30,577 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 13:16:32,039 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 13:16:32,068 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 13:16:32,180 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 13:16:32,209 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 13:16:32,223 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 7.705 seconds (JVM running for 8.928)
+2023-04-24 13:17:06,533 [https-jsse-nio-8585-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 13:17:06,534 [https-jsse-nio-8585-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 13:17:06,537 [https-jsse-nio-8585-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 3 ms
+2023-04-24 13:17:06,583 [https-jsse-nio-8585-exec-6] INFO  c.h.c.controller.EmployeeController                - Employee by (6)employeeId is called
+2023-04-24 13:17:06,873 [https-jsse-nio-8585-exec-6] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:17:13,183 [https-jsse-nio-8585-exec-7] INFO  c.h.c.controller.EmployeeController                - Employee by (2)employeeId is called
+2023-04-24 13:17:13,191 [https-jsse-nio-8585-exec-7] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:33:22,318 [https-jsse-nio-8585-exec-3] INFO  c.h.c.controller.EmployeeController                - Employee by (2)employeeId is called
+2023-04-24 13:33:22,329 [https-jsse-nio-8585-exec-3] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:38:00,159 [https-jsse-nio-8585-exec-1] INFO  c.h.c.controller.EmployeeController                - Employee by (2)employeeId is called
+2023-04-24 13:38:00,168 [https-jsse-nio-8585-exec-1] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:44:54,662 [https-jsse-nio-8585-exec-8] INFO  c.h.c.controller.EmployeeController                - Employee by (2)employeeId is called
+2023-04-24 13:44:54,672 [https-jsse-nio-8585-exec-8] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 13:48:46,439 [RMI TCP Connection(36)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 13:48:46,457 [RMI TCP Connection(36)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 13:48:46,457 [RMI TCP Connection(36)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 13:48:46,459 [RMI TCP Connection(36)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 13:48:46,463 [RMI TCP Connection(36)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 13:48:46,467 [RMI TCP Connection(36)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 13:48:46,490 [RMI TCP Connection(36)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 13:48:46,494 [RMI TCP Connection(36)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 13:48:46,630 [RMI TCP Connection(36)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 13:51:38,349 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 13:51:38,357 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 17716 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 13:51:38,359 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 13:51:38,470 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 13:51:38,470 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 13:51:39,697 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 13:51:39,949 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 236 ms. Found 1 JPA repository interfaces.
+2023-04-24 13:51:40,890 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 13:51:40,907 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 13:51:40,907 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 13:51:40,908 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 13:51:41,069 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 13:51:41,070 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2598 ms
+2023-04-24 13:51:41,273 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 13:51:41,350 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 13:51:41,631 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 13:51:41,790 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 13:51:42,343 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 13:51:42,388 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 13:51:43,790 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 13:51:43,805 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 13:51:44,324 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 13:51:46,034 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 13:51:46,064 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 13:51:46,174 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 13:51:46,207 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 13:51:46,223 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 8.473 seconds (JVM running for 9.846)
+2023-04-24 14:25:23,989 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 14:25:24,008 [RMI TCP Connection(37)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:25:24,009 [RMI TCP Connection(37)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 14:25:24,014 [RMI TCP Connection(37)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:25:24,019 [RMI TCP Connection(37)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:25:24,041 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:25:24,046 [RMI TCP Connection(37)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 14:25:24,055 [RMI TCP Connection(37)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 14:31:25,518 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 14:31:25,524 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 13120 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 14:31:25,526 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 14:31:25,603 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 14:31:25,603 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 14:31:26,540 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 14:31:26,738 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 186 ms. Found 1 JPA repository interfaces.
+2023-04-24 14:31:27,490 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 14:31:27,504 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:31:27,505 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 14:31:27,505 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 14:31:27,659 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 14:31:27,660 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2056 ms
+2023-04-24 14:31:27,833 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 14:31:27,897 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 14:31:28,115 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 14:31:28,248 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 14:31:28,748 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 14:31:28,789 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 14:31:30,121 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 14:31:30,133 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:31:30,638 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 14:31:32,307 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 14:31:32,330 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:31:32,416 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 14:31:32,443 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 14:31:32,457 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 7.458 seconds (JVM running for 8.819)
+2023-04-24 14:33:01,587 [https-jsse-nio-8585-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 14:33:01,588 [https-jsse-nio-8585-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 14:33:01,591 [https-jsse-nio-8585-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 3 ms
+2023-04-24 14:33:01,654 [https-jsse-nio-8585-exec-6] INFO  c.h.c.controller.EmployeeController                - Employee by (2)employeeId is called
+2023-04-24 14:33:02,102 [https-jsse-nio-8585-exec-6] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:33:07,940 [https-jsse-nio-8585-exec-7] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 14:33:07,948 [https-jsse-nio-8585-exec-7] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:38:54,645 [https-jsse-nio-8585-exec-9] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 14:38:54,651 [https-jsse-nio-8585-exec-9] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:43:25,058 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24 14:43:25,080 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:43:25,081 [Thread-5] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 14:43:25,083 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 14:43:25,088 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:43:25,091 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:43:25,118 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:43:25,124 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 14:43:25,149 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 14:43:25,307 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 13120 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 14:43:25,308 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 14:43:25,614 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 14:43:25,626 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2023-04-24 14:43:25,780 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 14:43:25,781 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:43:25,782 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 14:43:25,782 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 14:43:25,824 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 14:43:25,825 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 513 ms
+2023-04-24 14:43:25,879 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 14:43:25,888 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Starting...
+2023-04-24 14:43:26,029 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Start completed.
+2023-04-24 14:43:26,030 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 14:43:26,214 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 14:43:26,216 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:43:26,399 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 14:43:27,277 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 14:43:27,295 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:43:27,331 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 14:43:27,342 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 14:43:27,350 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 2.102 seconds (JVM running for 723.711)
+2023-04-24 14:43:27,356 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-04-24 14:44:13,025 [https-jsse-nio-8585-exec-9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 14:44:13,025 [https-jsse-nio-8585-exec-9] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 14:44:13,027 [https-jsse-nio-8585-exec-9] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-04-24 14:44:13,031 [https-jsse-nio-8585-exec-9] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 14:44:13,041 [https-jsse-nio-8585-exec-9] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:45:15,913 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 14:45:15,927 [RMI TCP Connection(17)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:45:15,928 [RMI TCP Connection(17)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 14:45:15,928 [RMI TCP Connection(17)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 14:45:15,931 [RMI TCP Connection(17)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:45:15,933 [RMI TCP Connection(17)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:45:15,935 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:45:15,936 [RMI TCP Connection(17)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown initiated...
+2023-04-24 14:45:15,945 [RMI TCP Connection(17)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown completed.
+2023-04-24 14:45:27,525 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 14:45:27,527 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 18240 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 14:45:27,530 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 14:45:27,634 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 14:45:27,634 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 14:45:28,763 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 14:45:28,991 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 213 ms. Found 1 JPA repository interfaces.
+2023-04-24 14:45:29,894 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 14:45:29,910 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:45:29,911 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 14:45:29,912 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 14:45:30,057 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 14:45:30,058 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2423 ms
+2023-04-24 14:45:30,259 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 14:45:30,338 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 14:45:30,590 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 14:45:30,754 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 14:45:31,264 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 14:45:31,309 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 14:45:32,514 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 14:45:32,530 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:45:33,083 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 14:45:34,698 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 14:45:34,748 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:45:34,846 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 14:45:34,881 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 14:45:34,900 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 7.989 seconds (JVM running for 9.367)
+2023-04-24 14:46:38,373 [https-jsse-nio-8585-exec-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 14:46:38,373 [https-jsse-nio-8585-exec-7] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 14:46:38,376 [https-jsse-nio-8585-exec-7] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-04-24 14:46:38,431 [https-jsse-nio-8585-exec-7] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 14:46:38,634 [https-jsse-nio-8585-exec-7] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:46:48,055 [https-jsse-nio-8585-exec-8] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 14:46:48,065 [https-jsse-nio-8585-exec-8] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:50:31,655 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 14:50:31,676 [RMI TCP Connection(7)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:50:31,676 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 14:50:31,679 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 14:50:31,684 [RMI TCP Connection(7)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:50:31,689 [RMI TCP Connection(7)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:50:31,714 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:50:31,720 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 14:50:31,738 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 14:50:42,435 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 14:50:42,440 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 9552 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 14:50:42,442 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 14:50:42,529 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 14:50:42,530 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 14:50:43,693 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 14:50:43,928 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 219 ms. Found 1 JPA repository interfaces.
+2023-04-24 14:50:44,965 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 14:50:44,989 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:50:44,990 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 14:50:44,990 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 14:50:45,133 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 14:50:45,134 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2603 ms
+2023-04-24 14:50:45,334 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 14:50:45,410 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 14:50:45,673 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 14:50:45,831 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 14:50:46,353 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 14:50:46,396 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 14:50:47,611 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 14:50:47,626 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:50:48,138 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 14:50:49,860 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 14:50:49,901 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:50:50,017 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 14:50:50,049 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 14:50:50,067 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 8.247 seconds (JVM running for 9.768)
+2023-04-24 14:53:39,091 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24 14:53:39,128 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:53:39,129 [Thread-5] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 14:53:39,135 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:53:39,139 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 14:53:39,162 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:53:39,166 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 14:53:39,180 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 14:53:39,291 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 9552 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 14:53:39,292 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 14:53:39,528 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 14:53:39,539 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2023-04-24 14:53:39,660 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (http)
+2023-04-24 14:53:39,661 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:53:39,662 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 14:53:39,662 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 14:53:39,696 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 14:53:39,697 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 402 ms
+2023-04-24 14:53:39,735 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 14:53:39,743 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Starting...
+2023-04-24 14:53:39,875 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Start completed.
+2023-04-24 14:53:39,876 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 14:53:39,973 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 14:53:39,973 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:53:40,128 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 14:53:40,875 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 14:53:40,889 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:53:40,897 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (http) with context path ''
+2023-04-24 14:53:40,903 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 1.656 seconds (JVM running for 180.604)
+2023-04-24 14:53:40,906 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-04-24 14:53:44,716 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 14:53:44,731 [RMI TCP Connection(5)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:53:44,732 [RMI TCP Connection(5)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 14:53:44,734 [RMI TCP Connection(5)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:53:44,736 [RMI TCP Connection(5)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:53:44,739 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:53:44,741 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown initiated...
+2023-04-24 14:53:44,749 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown completed.
+2023-04-24 14:54:00,090 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 14:54:00,090 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 13904 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 14:54:00,094 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 14:54:00,169 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 14:54:00,169 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 14:54:01,327 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 14:54:01,621 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 275 ms. Found 1 JPA repository interfaces.
+2023-04-24 14:54:02,521 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (http)
+2023-04-24 14:54:02,535 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:54:02,536 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 14:54:02,537 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 14:54:02,684 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 14:54:02,684 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2514 ms
+2023-04-24 14:54:02,888 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 14:54:02,965 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 14:54:03,212 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 14:54:03,372 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 14:54:04,093 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 14:54:04,139 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 14:54:05,388 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 14:54:05,402 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:54:05,924 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 14:54:07,598 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 14:54:07,636 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:54:07,674 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (http) with context path ''
+2023-04-24 14:54:07,693 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 8.133 seconds (JVM running for 9.401)
+2023-04-24 14:54:33,592 [http-nio-8585-exec-2] INFO  org.apache.coyote.http11.Http11Processor           - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x05}0x010x000x05y0x030x030xa5z0xf00xce0xdb0xda\0x8ft0x1f90xfa&~0xd00x9a0xe6rb0x0ev0xe50xff0x98\0xc73%0xfc0x150xc2R ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:262)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-04-24 14:54:49,170 [http-nio-8585-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 14:54:49,171 [http-nio-8585-exec-5] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 14:54:49,174 [http-nio-8585-exec-5] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 3 ms
+2023-04-24 14:54:49,231 [http-nio-8585-exec-5] INFO  c.h.c.controller.EmployeeController                - Employee by (6)employeeId is called
+2023-04-24 14:54:49,481 [http-nio-8585-exec-5] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:55:01,991 [http-nio-8585-exec-6] INFO  c.h.c.controller.EmployeeController                - Employee by (6)employeeId is called
+2023-04-24 14:55:02,010 [http-nio-8585-exec-6] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:55:08,085 [http-nio-8585-exec-7] INFO  c.h.c.controller.EmployeeController                - Employee by (8)employeeId is called
+2023-04-24 14:55:08,093 [http-nio-8585-exec-7] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:56:39,643 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 14:56:39,662 [RMI TCP Connection(5)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:56:39,662 [RMI TCP Connection(5)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 14:56:39,665 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 14:56:39,671 [RMI TCP Connection(5)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:56:39,674 [RMI TCP Connection(5)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:56:39,695 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:56:39,699 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 14:56:39,712 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 14:57:29,951 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 15768 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 14:57:29,949 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 14:57:29,954 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 14:57:30,043 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 14:57:30,043 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 14:57:31,184 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 14:57:31,450 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 249 ms. Found 1 JPA repository interfaces.
+2023-04-24 14:57:32,380 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (http)
+2023-04-24 14:57:32,393 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:57:32,395 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 14:57:32,395 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 14:57:32,537 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 14:57:32,537 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2493 ms
+2023-04-24 14:57:32,756 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 14:57:32,832 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 14:57:33,091 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 14:57:33,259 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 14:57:33,881 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 14:57:33,934 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 14:57:35,176 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 14:57:35,191 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 14:57:35,744 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 14:57:37,519 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 14:57:37,551 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8585"]
+2023-04-24 14:57:37,601 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (http) with context path ''
+2023-04-24 14:57:37,630 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 8.434 seconds (JVM running for 10.133)
+2023-04-24 14:58:01,611 [http-nio-8585-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 14:58:01,612 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 14:58:01,617 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 5 ms
+2023-04-24 14:58:01,700 [http-nio-8585-exec-1] INFO  c.h.c.controller.EmployeeController                - Employee by (8)employeeId is called
+2023-04-24 14:58:01,984 [http-nio-8585-exec-1] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:58:07,495 [http-nio-8585-exec-2] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 14:58:07,505 [http-nio-8585-exec-2] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:58:12,298 [http-nio-8585-exec-3] INFO  org.apache.coyote.http11.Http11Processor           - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xf70x010x000x000xf30x030x030x800xcc0x8cC]0xcb0xa20xd40xa60xe60x150xa60xcdW0xf20xa9X0xe20xda0x990xc6x0xf90x870xc60xe1<0xc4x0xcf0xeb0x01 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:262)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-04-24 14:59:20,910 [http-nio-8585-exec-4] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 14:59:20,919 [http-nio-8585-exec-4] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:59:24,408 [http-nio-8585-exec-3] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 14:59:24,417 [http-nio-8585-exec-3] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 14:59:29,479 [http-nio-8585-exec-5] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 14:59:29,489 [http-nio-8585-exec-5] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:01:51,482 [http-nio-8585-exec-9] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 15:01:51,490 [http-nio-8585-exec-9] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:01:53,841 [http-nio-8585-exec-10] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 15:01:53,850 [http-nio-8585-exec-10] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:02:27,636 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24 15:02:27,661 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:02:27,662 [Thread-5] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 15:02:27,664 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 15:02:27,669 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:02:27,674 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:02:27,708 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 15:02:27,712 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 15:02:27,728 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 15:02:27,851 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 15768 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 15:02:27,851 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 15:02:28,125 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 15:02:28,136 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2023-04-24 15:02:28,275 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (http)
+2023-04-24 15:02:28,277 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:02:28,278 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 15:02:28,278 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 15:02:28,323 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 15:02:28,323 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 469 ms
+2023-04-24 15:02:28,368 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 15:02:28,377 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Starting...
+2023-04-24 15:02:28,398 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Start completed.
+2023-04-24 15:02:28,398 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 15:02:28,696 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 15:02:28,698 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 15:02:28,864 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 15:02:29,872 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 15:02:29,896 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:02:29,906 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (http) with context path ''
+2023-04-24 15:02:29,916 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 2.117 seconds (JVM running for 302.419)
+2023-04-24 15:02:29,923 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-04-24 15:02:33,996 [http-nio-8585-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 15:02:33,997 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 15:02:34,001 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 3 ms
+2023-04-24 15:02:34,010 [http-nio-8585-exec-1] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 15:02:34,153 [http-nio-8585-exec-1] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:02:38,233 [http-nio-8585-exec-3] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 15:02:38,239 [http-nio-8585-exec-3] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:02:46,141 [http-nio-8585-exec-4] INFO  org.apache.coyote.http11.Http11Processor           - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xf70x010x000x000xf30x030x03C0x100x980x900xae0xb50xb50xf00x920x18_0x940xae0x19]0xe40x9ds0x81L0x060xed0x140x900x920xb9m0x110x7f0x100x11[ ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:262)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-04-24 15:20:55,327 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 15:20:55,471 [RMI TCP Connection(27)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:20:55,474 [RMI TCP Connection(27)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 15:20:55,478 [RMI TCP Connection(27)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 15:20:55,496 [RMI TCP Connection(27)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:20:55,522 [RMI TCP Connection(27)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:20:55,533 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 15:20:55,536 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown initiated...
+2023-04-24 15:20:55,555 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown completed.
+2023-04-24 15:21:20,706 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 8908 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 15:21:20,706 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 15:21:20,710 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 15:21:20,791 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 15:21:20,792 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 15:21:21,708 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 15:21:21,897 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 176 ms. Found 1 JPA repository interfaces.
+2023-04-24 15:21:22,624 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (http)
+2023-04-24 15:21:22,635 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:21:22,636 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 15:21:22,636 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 15:21:22,753 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 15:21:22,753 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1960 ms
+2023-04-24 15:21:22,924 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 15:21:22,992 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 15:21:23,194 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 15:21:23,321 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 15:21:23,751 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 15:21:23,795 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 15:21:24,889 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 15:21:24,922 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 15:21:25,393 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 15:21:26,873 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 15:21:26,897 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:21:26,931 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (http) with context path ''
+2023-04-24 15:21:26,950 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 6.756 seconds (JVM running for 8.174)
+2023-04-24 15:23:00,797 [http-nio-8585-exec-2] INFO  org.apache.coyote.http11.Http11Processor           - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xf70x010x000x000xf30x030x030x870xd00x1bI0xdb0x950x8c0xc50xca0x130x990xc70xd6sz0x870x06h0x15%0xdd0xfc0xef0x060xe4h.0xb60xd30x86Z0x9e ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:262)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-04-24 15:23:07,616 [http-nio-8585-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 15:23:07,618 [http-nio-8585-exec-5] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 15:23:07,621 [http-nio-8585-exec-5] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-04-24 15:23:07,665 [http-nio-8585-exec-5] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 15:23:07,748 [http-nio-8585-exec-5] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:23:57,955 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 15:23:57,975 [RMI TCP Connection(6)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:23:57,976 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 15:23:57,978 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 15:23:57,983 [RMI TCP Connection(6)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:23:57,985 [RMI TCP Connection(6)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:23:58,012 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 15:23:58,016 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 15:23:58,034 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 15:24:10,465 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 15:24:10,467 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 1040 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 15:24:10,470 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 15:24:10,554 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 15:24:10,554 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 15:24:11,847 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 15:24:12,097 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 233 ms. Found 1 JPA repository interfaces.
+2023-04-24 15:24:13,293 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (http)
+2023-04-24 15:24:13,309 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:24:13,310 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 15:24:13,311 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 15:24:13,482 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 15:24:13,483 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2927 ms
+2023-04-24 15:24:13,726 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 15:24:13,814 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 15:24:14,117 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 15:24:14,341 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 15:24:14,916 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 15:24:14,971 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 15:24:16,377 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 15:24:16,395 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 15:24:16,999 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 15:24:19,129 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 15:24:19,163 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:24:19,203 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (http) with context path ''
+2023-04-24 15:24:19,222 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 9.327 seconds (JVM running for 10.843)
+2023-04-24 15:35:13,790 [http-nio-8585-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 15:35:13,790 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 15:35:13,792 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-04-24 15:35:13,841 [http-nio-8585-exec-1] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 15:35:13,921 [http-nio-8585-exec-1] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:35:17,890 [http-nio-8585-exec-3] INFO  org.apache.coyote.http11.Http11Processor           - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xf70x010x000x000xf30x030x030x830xfd0x0eK0xc40xed0xd530x1e0xa1H[L0xff0xc0B<0xde0xc00xc760xd90xc8`0x940x19>0xcd0xec0x0d0x160x9d ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:262)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-04-24 15:35:29,790 [http-nio-8585-exec-5] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 15:35:29,799 [http-nio-8585-exec-5] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:36:15,130 [http-nio-8585-exec-7] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 15:36:15,145 [http-nio-8585-exec-7] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:36:20,449 [http-nio-8585-exec-8] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 15:36:20,456 [http-nio-8585-exec-8] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:36:26,472 [http-nio-8585-exec-10] INFO  org.apache.coyote.http11.Http11Processor           - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xf70x010x000x000xf30x030x030xec0xd50x110xac0xcd0xd90x80U0xec0x00>10x11N0x100xb10xdf0x0140xc4rQ0x9e0xa20xac/0x8e0xbc40x9b0xba; ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:262)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-04-24 15:36:30,234 [http-nio-8585-exec-3] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 15:36:30,243 [http-nio-8585-exec-3] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:36:31,357 [http-nio-8585-exec-4] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 15:36:31,385 [http-nio-8585-exec-4] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:37:04,930 [http-nio-8585-exec-7] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 15:37:04,942 [http-nio-8585-exec-7] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:38:25,743 [http-nio-8585-exec-2] INFO  c.h.c.controller.EmployeeController                - Employee by (10)employeeId is called
+2023-04-24 15:38:25,755 [http-nio-8585-exec-2] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:45:16,089 [http-nio-8585-exec-3] INFO  o.springdoc.api.AbstractOpenApiResource            - Init duration for springdoc-openapi is: 189 ms
+2023-04-24 15:45:25,346 [http-nio-8585-exec-4] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 15:45:25,357 [http-nio-8585-exec-4] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:49:21,517 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24 15:49:21,552 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:49:21,552 [Thread-5] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 15:49:21,555 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 15:49:21,561 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:49:21,564 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8585"]
+2023-04-24 15:49:21,594 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 15:49:21,600 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 15:49:21,724 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 15:49:21,872 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 1040 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 15:49:21,872 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 15:49:22,114 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 15:49:22,125 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2023-04-24 15:49:22,262 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 15:49:22,264 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 15:49:22,265 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 15:49:22,266 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 15:49:22,301 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 15:49:22,301 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 425 ms
+2023-04-24 15:49:22,341 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 15:49:22,347 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Starting...
+2023-04-24 15:49:22,476 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Start completed.
+2023-04-24 15:49:22,480 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 15:49:22,564 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 15:49:22,565 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 15:49:22,725 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 15:49:23,671 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 15:49:23,686 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 15:49:23,899 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 15:49:23,917 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 15:49:23,931 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 2.113 seconds (JVM running for 1515.553)
+2023-04-24 15:49:23,937 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-04-24 15:51:06,356 [https-jsse-nio-8585-exec-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 15:51:06,357 [https-jsse-nio-8585-exec-7] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 15:51:06,360 [https-jsse-nio-8585-exec-7] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-04-24 15:51:06,363 [https-jsse-nio-8585-exec-7] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 15:51:06,370 [https-jsse-nio-8585-exec-7] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 15:54:54,297 [RMI TCP Connection(34)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 15:54:54,312 [RMI TCP Connection(34)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 15:54:54,312 [RMI TCP Connection(34)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 15:54:54,313 [RMI TCP Connection(34)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 15:54:54,315 [RMI TCP Connection(34)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 15:54:54,317 [RMI TCP Connection(34)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 15:54:54,321 [RMI TCP Connection(34)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 15:54:54,322 [RMI TCP Connection(34)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown initiated...
+2023-04-24 15:54:54,333 [RMI TCP Connection(34)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown completed.
+2023-04-24 16:28:18,986 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 8280 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 16:28:18,988 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 16:28:18,996 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 16:28:19,093 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 16:28:19,094 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 16:28:20,291 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 16:28:20,528 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 222 ms. Found 1 JPA repository interfaces.
+2023-04-24 16:28:21,440 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 16:28:21,454 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:28:21,455 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 16:28:21,456 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 16:28:21,608 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 16:28:21,608 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2513 ms
+2023-04-24 16:28:21,802 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 16:28:21,886 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 16:28:22,135 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 16:28:22,289 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 16:28:23,667 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 16:28:23,718 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 16:28:25,059 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 16:28:25,078 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 16:28:25,657 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 16:28:27,428 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2023-04-24 16:28:27,470 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:28:27,597 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 16:28:27,634 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 16:28:27,651 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 9.331 seconds (JVM running for 11.194)
+2023-04-24 16:45:45,086 [RMI TCP Connection(20)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 16:45:45,104 [RMI TCP Connection(20)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:45:45,104 [RMI TCP Connection(20)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 16:45:45,110 [RMI TCP Connection(20)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:45:45,115 [RMI TCP Connection(20)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:45:45,140 [RMI TCP Connection(20)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 16:45:45,145 [RMI TCP Connection(20)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 16:45:45,192 [RMI TCP Connection(20)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 16:46:00,888 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 10300 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 16:46:00,888 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-24 16:46:00,892 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 16:46:00,965 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 16:46:00,965 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 16:46:02,124 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 16:46:02,357 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 218 ms. Found 1 JPA repository interfaces.
+2023-04-24 16:46:03,283 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 16:46:03,297 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:46:03,299 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 16:46:03,299 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 16:46:03,484 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 16:46:03,484 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2518 ms
+2023-04-24 16:46:03,727 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 16:46:03,806 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 16:46:04,118 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 16:46:04,292 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-04-24 16:46:04,892 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-04-24 16:46:04,945 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 16:46:06,149 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 16:46:06,166 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 16:46:06,701 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 16:46:08,756 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 16:46:08,785 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:46:08,922 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 16:46:08,967 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 16:46:08,985 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 8.692 seconds (JVM running for 10.008)
+2023-04-24 16:46:37,251 [https-jsse-nio-8585-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 16:46:37,251 [https-jsse-nio-8585-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-24 16:46:37,255 [https-jsse-nio-8585-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 3 ms
+2023-04-24 16:46:37,304 [https-jsse-nio-8585-exec-6] INFO  c.h.c.controller.EmployeeController                - Employee by (4)employeeId is called
+2023-04-24 16:46:37,715 [https-jsse-nio-8585-exec-6] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-24 16:49:45,678 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24 16:49:45,711 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:49:45,712 [Thread-5] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 16:49:45,714 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 16:49:45,717 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:49:45,720 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:49:45,739 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 16:49:45,743 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-04-24 16:49:45,754 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-04-24 16:49:45,876 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Starting EmployeeDetailsManagementApplication using Java 17.0.6 on DESKTOP-5KMN6BM with PID 10300 (D:\HDFC_CapstoneProject\EmployeeDetailsManagement\bin\main started by admin in D:\HDFC_CapstoneProject\EmployeeDetailsManagement)
+2023-04-24 16:49:45,876 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - No active profile set, falling back to 1 default profile: "default"
+2023-04-24 16:49:46,117 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 16:49:46,128 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2023-04-24 16:49:46,241 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8585 (https)
+2023-04-24 16:49:46,243 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:49:46,244 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-24 16:49:46,244 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-24 16:49:46,285 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-24 16:49:46,286 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 405 ms
+2023-04-24 16:49:46,335 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 16:49:46,345 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Starting...
+2023-04-24 16:49:46,481 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Start completed.
+2023-04-24 16:49:46,482 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 16:49:46,559 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 16:49:46,560 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 16:49:46,699 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 16:49:47,518 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-24 16:49:47,532 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 16:49:47,558 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/javatechie.jks] using alias [spring-https] and with trust store [null]
+2023-04-24 16:49:47,566 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
+2023-04-24 16:49:47,575 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 1.75 seconds (JVM running for 228.597)
+2023-04-24 16:49:47,579 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-04-24 19:05:19,007 [HikariPool-2 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6m457ms861µs300ns).
+2023-04-24 19:06:53,503 [RMI TCP Connection(137)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-24 19:06:53,589 [RMI TCP Connection(137)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 19:06:53,591 [RMI TCP Connection(137)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-24 19:06:53,623 [RMI TCP Connection(137)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 19:06:53,643 [RMI TCP Connection(137)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["https-jsse-nio-8585"]
+2023-04-24 19:06:53,658 [RMI TCP Connection(137)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 19:06:53,678 [RMI TCP Connection(137)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown initiated...
+2023-04-24 19:06:53,706 [RMI TCP Connection(137)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown completed.

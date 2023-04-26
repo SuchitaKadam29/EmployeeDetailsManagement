@@ -8,12 +8,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.hdfc.capstone.entity.Employee;
-import com.hdfc.capstone.exception.EmployeeIdException;
 import com.hdfc.capstone.service.IEmployeeService;
+import com.hdfc.capstone.vo.EmployeeVO;
+
+import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @RequestMapping("/employee")
+@Slf4j
 public class EmployeeController {
 	
 	private static final Logger logger= LoggerFactory.getLogger(EmployeeController.class);
@@ -23,7 +25,7 @@ public class EmployeeController {
 	IEmployeeService empService;
 
 	@GetMapping("/getEmployeebyId/{employeeId}")
-	public Employee getEmployeeById(@PathVariable int employeeId) throws EmployeeIdException {
+	public EmployeeVO getEmployeeById(@PathVariable int employeeId) throws Exception {
 		logger.info("Employee by ("+employeeId+")employeeId is called");
 		return empService.getEmployeeById(employeeId);
 
