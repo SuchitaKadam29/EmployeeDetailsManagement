@@ -39,3 +39,13 @@
 2023-04-27 18:20:36,845 [restartedMain] INFO  o.a.t.util.net.NioEndpoint.certificate             - Connector [https-jsse-nio-8585], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/HDFC_CapstoneProject/EmployeeDetailsManagement/bin/main/capstone.p12] using alias [myalias] and with trust store [null]
 2023-04-27 18:20:36,896 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8585 (https) with context path ''
 2023-04-27 18:20:36,936 [restartedMain] INFO  c.h.c.EmployeeDetailsManagementApplication         - Started EmployeeDetailsManagementApplication in 14.888 seconds (JVM running for 19.7)
+2023-04-27 18:21:04,988 [https-jsse-nio-8585-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 18:21:04,989 [https-jsse-nio-8585-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-27 18:21:05,003 [https-jsse-nio-8585-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 11 ms
+2023-04-27 18:21:05,893 [https-jsse-nio-8585-exec-6] INFO  c.h.c.controller.EmployeeController                - Employee by (10604)employeeId is called
+2023-04-27 18:21:07,359 [https-jsse-nio-8585-exec-6] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-27 18:21:17,301 [https-jsse-nio-8585-exec-7] INFO  c.h.c.controller.EmployeeController                - Employee by (10601)employeeId is called
+2023-04-27 18:21:18,192 [https-jsse-nio-8585-exec-7] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-27 18:21:24,366 [https-jsse-nio-8585-exec-3] INFO  c.h.c.controller.EmployeeController                - Employee by (10604)employeeId is called
+2023-04-27 18:21:25,425 [https-jsse-nio-8585-exec-3] INFO  c.h.c.serviceImpl.EmployeeServiceImpl              -  got Employee by Id 
+2023-04-27 20:39:40,480 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m36s202ms938µs300ns).
